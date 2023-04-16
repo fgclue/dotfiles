@@ -12,4 +12,11 @@ Note: The bash and the vim config (.bashrc and .vimrc) might not show up. This i
 
 These dotfiles probably will work on any distro, but just in case, the distro I use is fedora.
 
-Requires: i3 dmenu vim (and VimPlug) bash and fish.
+Requires:
+- i3wm
+- dmenu
+- vim
+- VimPlug
+- bash
+- fish
+
