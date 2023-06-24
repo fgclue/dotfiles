@@ -1,5 +1,6 @@
 # .bashrc
 
+
 # Source global definitions
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
@@ -43,11 +44,13 @@ echo -e "   \033[0;46m    \033[0;45m    \033[0;43m    \033[0;40m    \033[0;47m  
 echo -e "   \033[1;46m los\033[1;45mtdev\033[0;43m    \033[0;40m    \033[0;47m    \033[0m\n"
 
 #DISABLED FOR UPDATE vv
-eval "$(oh-my-posh init bash)"
+#eval "$(oh-my-posh init bash)"
 
-eval "$(oh-my-posh init bash --config ~/Theme/omp/huvix.omp.json)"
+#eval "$(oh-my-posh init bash --config ~/Theme/omp/huvix.omp.json)"
 
 # DISABLED FOR UPDATE ^^
+
+~/projects/miniPrompt/themes/base.sh
 
 #eval "$(oh-my-posh init bash --config ~/Theme/omp/nordtron.omp.json)"
 # export PATH=$PATH:~/zig/zig

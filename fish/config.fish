@@ -1,7 +1,13 @@
 if status is-interactive
     # bfetch
     #bfetch
-
+    alias yarn="npx yarn"	
+    alias vim="nvim" # Replaces vim with nvim.
+    alias cat="bat"
+    alias icat="kitty +kitten icat"
+    alias vimback="vim" # vim
+    alias grepr="rg"
+    #
     # Commands to run in interactive sessions can go here
     
     # startup
