@@ -1,0 +1,29 @@
+{
+    "layer": "bottom", // Waybar at top layer
+    "position": "bottom", // Waybar at the bottom of your screen
+    "height": 24, // Waybar height
+    // "width": 1366, // Waybar width
+    // Choose the order of the modules
+    "modules-left": ["sway/workspaces", "sway/mode"],
+    "modules-center": ["sway/window"],
+    "modules-right": ["memory", "battery", "tray", "clock"],
+"hyprland/workspaces": {
+     "format": "{icon}",
+     "on-scroll-up": "hyprctl dispatch workspace e+1",
+     "on-scroll-down": "hyprctl dispatch workspace e-1"
+},
+"hyprland/window": {
+    "max-length": 200,
+    "separate-outputs": true
+},
+    "tray": {
+        // "icon-size": 21,
+        "spacing": 10
+    },
+    "clock": {
+        "format-alt": "{:%Y-%m-%d}"
+    },
+    "memory": {
+        "format": "{}% "
+    }
+}
